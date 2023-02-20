@@ -1,0 +1,18 @@
+[package]
+name = "switcher"
+version = "0.1.0"
+edition = "2021"
+description = "Mouse driven application switcher"
+
+[dependencies]
+fltk = "1.3.18"
+fltk-theme = "0.6.0"
+rdev = { version = "0.5.2", features = ["unstable_grab"]}
+enigo = "0.0.14"
+
+[package.metadata.bundle]
+name = "Switcher"
+identifier = "com.ddno.switcher"
+icon = ["assets/mouse.png"]
+resources = ["assets"]
+category = "Utility"
