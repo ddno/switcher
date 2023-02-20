@@ -1,0 +1,6 @@
+/target
+**/*.rs.bk
+
+.DS_Store
+.idea
+assets/config.csv
